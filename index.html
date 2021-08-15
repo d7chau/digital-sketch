@@ -7,25 +7,30 @@
     <link rel="stylesheet" href="style.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet"> <!--Pacifico font-->
-    <link href="https://fonts.googleapis.com/css2?family=Comic+Neue:wght@700&display=swap" rel="stylesheet"> <!--Comic Neue font-->
+    <link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet"> <!--Righteous font-->
+    <link rel="shortcut icon" type="image/png" href="images/favicon.png" />
   </head>
 
   <body>
     <main>
-      <h1 class = "main-header">Digital Sketch</h1>
+      <h1 class = "main-header">DIGITAL SKETCH</h1>
       <div class ="main-container">
-        <div class = "btn-container">
-            <button class = "btn">BLACK</button>
-            <button class = "btn">RAINBOW</button>
-            <button class = "btn">ERASER</button>
-            <button class = "btn">RESET</button>
-            <div class="slider-container">
-                <input type="range" min="1" max="100" value="50" class="slider" id="myRange">
-            </div>
+        <div class = "tools-container">
+          <h1 class ="tools-container-header">TOOLS</h1>
+            <button class = "btn" id = "blackBtn">BLACK</button>
+            <button class = "btn" id = "eraserBtn">ERASER</button>
+            <button class = "btn" id = "resetBtn">RESET</button>
         </div>
-      <div class = "grid-container"></div>
-    </div>
+
+          <div class = "sizes-container">
+          <h1 class ="sizes-container-header">SIZES</h1>
+            <button class = "btn" id = "sixteenBtn">16x16</button>
+            <button class = "btn" id = "thirtyTwoBtn">32x32</button>
+            <button class = "btn" id = "sixtyFourBtn">64x64</button>
+        </div>
+
+      <div class = "grid-container" id = "gridContainer"></div>
+      </div>
       <script src="script.js"></script>
     </main>
   </body>
