@@ -1,6 +1,6 @@
 # Introduction to Digital Sketch
 
-[![](https://github.com/d7chau/digital-sketch/blob/main/images/thumbnail.png)](https://d7chau.github.io/digital-sketch/)
+[![](https://github.com/d7chau/digital-sketch/blob/main/images/thumbnail2.png)](https://d7chau.github.io/digital-sketch/)
 
 ## Description
 
