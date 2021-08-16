@@ -14,7 +14,7 @@
 .main-container{
     display: flex;
     flex-direction:row;
-    align-items: center;
+    /* align-items: center; */
     justify-content: center;
 }
 
@@ -23,7 +23,7 @@
     height:315px;
     width:150px;
     border-radius: 10px;
-    margin:auto 0px auto 0px;
+    margin:150px 0px auto 0px;
     max-width:100%;
 }
 
@@ -58,7 +58,7 @@
     height:315px;
     width:150px;
     border-radius: 10px;
-    margin:auto 0px auto 790px;
+    margin:150px 0px auto 790px;
     max-width:100%;
 }
 
