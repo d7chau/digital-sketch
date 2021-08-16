@@ -9,7 +9,7 @@ var sixteenBtn = document.getElementById("sixteenBtn");
 var thirtyTwoBtn = document.getElementById("thirtyTwoBtn");
 var sixtyFour = document.getElementById("sixtyFourBtn");
 
-blackBtn.addEventListener('click', () => changeTrailEffect("black")) //when i click on black button it turns into eraser trail
+blackBtn.addEventListener('click', () => changeTrailEffect("black"))
 eraserBtn.addEventListener('click', () => changeTrailEffect("white"))
 resetBtn.addEventListener("click",() => clearGrid())
 sixteenBtn.addEventListener("click",() => changeGridSize(16))
@@ -48,8 +48,11 @@ function handleMouseOver(event){
 }
 
 function clearGrid(){
-    grid.innerHTML = ''
+    while (grid.firstChild) {
+        grid.removeChild(grid.lastChild);
+      }
     currentTrail = "black-trail"
+    setupGrid(16);
 }
 
 function changeGridSize(gridSize){
